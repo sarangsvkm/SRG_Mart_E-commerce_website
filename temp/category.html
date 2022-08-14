@@ -1,0 +1,67 @@
+{% extends 'base.html'}
+{% load static %}
+
+{% block metadescription %}
+   {% if category %}
+       {{ category.description|truncatewords:155 }}
+   {% else %}
+       welcome to SRG Store where you can buys different items....
+   {% endif %}
+{% endblock %}
+
+{% block title %}
+    {% if category %}
+       {{ category.name }} - SRG Store
+   {% else %}
+       See our New Collections -SRG Store
+   {% endif %}
+{% endblock %}
+{% block content %}
+
+{% if category %}
+    <div>
+        <div>
+            <p><a href="{% url 'shop:allProdCat'%}">Our Product Collections</a></p>
+        </div>
+    </div>
+{% endif %}
+ <div>
+     {% if category %}
+     <img src="{{category.image.url}}" alt="{{category.name}}">
+ </div>
+     <br>
+<div>
+    <h>{{category.nmae}}</h>
+    <p>{{category.description}}</p>
+</div>
+     {% else %}
+<div>
+<img src="{% static 'img/banner.png' %}" alt="our products">
+</div>
+<br>
+<div>
+    <h1>Our Products Collections</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500</p>
+
+</div>
+{% endif %}
+<div>
+    <div>
+        {% for product in products %}
+        <div>
+            <div>
+                <a href=""><img src="{{product.img.url}}" alt="{{product.name}}"></a>
+                <div>
+                  <h4> {{product.name}}</h4>
+                    <p>{{product.price}}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+
+
+
+
