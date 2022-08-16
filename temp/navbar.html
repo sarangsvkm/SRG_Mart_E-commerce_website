@@ -1,6 +1,6 @@
 <nav>
     <u>
-        <li><a href="{% url 'shop:allProdCat%}">All Products</a> </li>
+        <li><a href="{% url 'shop:allProdCat' %}">All Products</a> </li>
         {% for cat in links %}
         <li> <a href="{{cat.get_url}}"></a></li>
         {% endfor %}
