@@ -10,22 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21b942a-7141-46b5-9ee4-4ea116162c8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/media/product/OIP_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/product/download_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/popper.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce_project/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/product.html" afterDir="false" />
     </list>
     <list id="5bca1626-6f16-4088-81f8-a17622490c4b" name="Changes-2" comment="Changes-2" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,26 +62,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TODO_SCOPE": "All Places",
-    "last_opened_file_path": "E:/ecommerce/ecommerce_project",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/ecommerce/ecommerce_project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ],
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -153,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661433290139</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="first">
+      <created>1665934695082</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665934695083</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
