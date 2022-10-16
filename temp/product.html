@@ -15,26 +15,30 @@
    {% endif %}
 {% endblock %}
 {% block content %}
-<div>
-    <div>
+<div class="row my_prod_class">
+    <div class="mx_auto">
         <p><a href="{% url 'shop:allProdCat' %}" >Home</a>|<a href="{{product.category.get_url}}">{{product.category}} </a>|</a> </p>
     </div>
 </div>
+<div class="container">
 <br>
-<div>
-    <div>
-        <div>
-            <img src="{{product.image.url}}" alt="{{product.name}}" >
+
+<div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center">
+        <div style="min-width:18rm">
+            <img  src="{{product.img.url}}" alt="{{product.name}}" width="500" height="500">
         </div>
     </div>
-    <div>
-        <h1>{{product.name}}</h1>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <h1 class="my_prod_title">{{product.name}}</h1>
         <p>${{product.price}}</p>
-        <p>Product Description</p>
-        <p>{{product.description}}</p>
-        {% if product.stock <=0 %}
-         <p><b>Out of stock</b></p>
+        <p class="my_title">Product Description</p>
+        <p class="text-justify my_prod_text">{{product.description}}</p>
+        {% if product.stock <= 0 %}
+         <p class="text-justify my_orid_title"><b>Out of stock</b></p>
         {% else %}
-        <a href="">add to Cart</a>
+        <a class="btn btn-secondary" href="">add to Cart</a>
+        {% endif %}
     </div>
 </div>
+{% endblock %}
