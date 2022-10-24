@@ -47,7 +47,7 @@
             {% for cart_item in cart_items %}
             <tr>
                 <td>
-                <a href="cart_item.product.get_absolute_url"><img src="{{cart_item.product.image.url}}" alt="cart image"  style="width:100px;height:100px;" class="float-left rounded custom_image "></a>
+                <a href="#"><img src="{{cart_item.product.img.url}}"   style="width:100px;height:100px;" class="float-left rounded custom_image "></a>
                 </td>
                 <td class="text-lef">
                     {{cart_item.product.name}}
@@ -65,7 +65,7 @@
                 <td>
                     <a href="{% url 'cart:add_cart' cart_item.product.id %}" class="custom_a"><i class="fa-solid fa-plus custom_icon"></i></a>
                     &nbsp;<a href="{% url 'cart:cart_remove' cart_item.product.id %}" class="custom_a"><i class="fa-solid fa-minus custom_icon"></i></a>
-                     &nbsp;<a href="{% url 'cart:full_remove' cart_item.product.id" class="custom_a"><i class="fa-duotone fa-trash custom_icon"></i></a>
+                     &nbsp;<a href="{% url 'cart:full_remove' cart_item.product.id %}" class="custom_a"><i class="fa-duotone fa-trash custom_icon"></i></a>
                 </td>
                 {% else %}
                 <td>
