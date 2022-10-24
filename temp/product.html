@@ -34,10 +34,10 @@
         <p>${{product.price}}</p>
         <p class="my_title">Product Description</p>
         <p class="text-justify my_prod_text">{{product.description}}</p>
-        {% if product.stock <= 0 %}
-         <p class="text-justify my_orid_title"><b>Out of stock</b></p>
-        {% else %}
+        {% if product.stock != 0 %}
         <a class="btn btn-secondary" href="{% url 'cart:add_cart' product.id %}">add to Cart</a>
+        {% else %}
+        <p class="text-justify my_orid_title"><b>Out of stock</b></p>
         {% endif %}
     </div>
 </div>
