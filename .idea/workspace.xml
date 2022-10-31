@@ -9,7 +9,11 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d21b942a-7141-46b5-9ee4-4ea116162c8f" name="Changes" comment="update" />
+    <list default="true" id="d21b942a-7141-46b5-9ee4-4ea116162c8f" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/search.html" afterDir="false" />
+    </list>
     <list id="5bca1626-6f16-4088-81f8-a17622490c4b" name="Changes-2" comment="Changes-2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667207388237</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update">
+      <created>1667213535473</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667213535473</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
