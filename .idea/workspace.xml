@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21b942a-7141-46b5-9ee4-4ea116162c8f" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/temp/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/navbar.html" afterDir="false" />
     </list>
     <list id="5bca1626-6f16-4088-81f8-a17622490c4b" name="Changes-2" comment="Changes-2" />
     <option name="SHOW_DIALOG" value="false" />
@@ -319,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667283709965</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="update">
+      <created>1667284097784</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1667284097785</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
