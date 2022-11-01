@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d21b942a-7141-46b5-9ee4-4ea116162c8f" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/cart.html" afterDir="false" />
     </list>
     <list id="5bca1626-6f16-4088-81f8-a17622490c4b" name="Changes-2" comment="Changes-2" />
     <option name="SHOW_DIALOG" value="false" />
@@ -315,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667217477159</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="update">
+      <created>1667283709965</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1667283709965</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
